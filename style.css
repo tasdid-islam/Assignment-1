@@ -102,3 +102,87 @@ ul li a{
 .details h5{
     color: #2563EB;
 }
+
+
+
+
+
+
+
+/* Pricing Section */
+.main-sec{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.main-h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.main-p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+}
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+}
+.badch{
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.badch-list{
+    list-style: disc;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.badch-list li::marker {
+    color: blue;
+}
+
+.badch li {
+    color: black;
+    margin-bottom: 13px;
+    line-height: 1.6;
+}
+.pro-badch{
+    background: #0D1B2A;
+    color: #fff;
+}
+.pro-badch h5{
+     color: #2563EB;
+}
+.pro-badch li{
+    color: #ffffff;
+}
+.badch h2{
+    font-size: 40px;
+}
+.badch p{
+    color: #666;
+    margin-bottom: 25px;
+}
+.badch ol{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.badch button{
+    width: 100%;
+}
+.outline-btn{
+    background-color: #fff;
+    padding: 8px 6px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    cursor: pointer;
+    width: 100%;
+}
+
