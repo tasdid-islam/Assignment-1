@@ -72,3 +72,33 @@ ul li a{
     max-width: 650px;
     text-align: center;
  }
+
+
+  /*  Speakers Section */
+ .speaker{
+    width: 90%;
+    margin: 100px auto;
+}
+.speaker-h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    overflow: hidden;
+    padding-bottom: 15px ;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.details h5{
+    color: #2563EB;
+}
